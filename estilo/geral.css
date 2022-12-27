@@ -10,16 +10,16 @@
     - svg
     */
 }
-body {
+body, html {
+    background-image: linear-gradient(to top, #363636, #000);
     font-family: 'graffit', Arial, Helvetica, sans-serif;
-    font-size: 2.2em;
+    font-size: 1.8em;
     color: #13293d;
 }
 main {
     max-width: 500px;
     margin: 0 auto;
     padding: 0 15px;
-    background-image: linear-gradient(to top, #363636, #000);
 }
 
 .home {
