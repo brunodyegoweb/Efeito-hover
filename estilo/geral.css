@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'graffit';
-    src: url(../fontes/sickcapital-vice-otf.otf) format(opentype), url(../fontes/sickcapital-vice.ttf) format(truetype);
+    src: url(../fontes/LowBackDemo.otf) format(opentype)
     /*
     TIPOS DE FONRTES:
     - opentype (otf)
@@ -12,15 +12,30 @@
 }
 body {
     font-family: 'graffit', Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
+    font-size: 2.2em;
+    color: #13293d;
 }
 main {
     max-width: 500px;
     margin: 0 auto;
+    padding: 0 15px;
+    background-image: linear-gradient(to top, #363636, #000);
 }
 
 .home {
 display:flex;
 flex-direction: column;
 text-align: center;
+padding: 20px;
+}
+
+i, a {
+    transition: 0.8s;
+    color:#D3D3D3
+}
+
+ i:hover, a:hover {
+    transform: translateX(25px);
+    font-weight: bold;
+    color:#451531
 }
